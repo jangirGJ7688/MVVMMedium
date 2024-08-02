@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jOh-qS-K6p">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jOh-qS-K6p">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +10,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="Home View Controller" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="HomeViewController" customModule="Nearby" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home View Controller" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="HomeViewController" customModule="MVVMMedium" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,10 +31,11 @@
                                 </constraints>
                                 <state key="normal" image="refresh"/>
                                 <connections>
-                                    <action selector="refreshButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q8q-SJ-sFc"/>
+                                    <action selector="refreshClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FB7-G1-C6E"/>
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="WQx-52-GCO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3BJ-VH-xiV"/>
@@ -51,11 +49,10 @@
                             <constraint firstItem="9VA-jw-Yjo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="qoN-v8-Se7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9VA-jw-Yjo" secondAttribute="trailing" constant="24" id="vxl-LJ-Vj8"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Z1C-fP-Ud4"/>
                     <connections>
-                        <outlet property="tableView" destination="INA-JS-WpO" id="Vn0-cr-fs0"/>
+                        <outlet property="tableView" destination="INA-JS-WpO" id="uOx-wR-uL7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -65,7 +62,7 @@
         <!--Place List Controller-->
         <scene sceneID="tlU-3C-KmB">
             <objects>
-                <viewController storyboardIdentifier="PlaceListController" id="8pc-Ir-DTr" customClass="PlaceListController" customModule="Nearby" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PlaceListController" id="8pc-Ir-DTr" customClass="PlaceListController" customModule="MVVMMedium" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yy5-RZ-aYp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,6 +93,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="aVV-gE-Kml"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="5eB-fg-z1x" firstAttribute="bottom" secondItem="aVV-gE-Kml" secondAttribute="bottom" id="2V2-RH-Zl8"/>
@@ -111,7 +109,6 @@
                             <constraint firstItem="W2G-Da-UXb" firstAttribute="leading" secondItem="bFD-Q3-QeZ" secondAttribute="leading" id="l7S-QQ-Yrc"/>
                             <constraint firstItem="aVV-gE-Kml" firstAttribute="bottom" secondItem="W2G-Da-UXb" secondAttribute="bottom" constant="20" id="ycS-Bp-7z9"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="aVV-gE-Kml"/>
                     </view>
                     <connections>
                         <outlet property="tableView" destination="W2G-Da-UXb" id="qYO-Uf-aX6"/>
@@ -125,7 +122,7 @@
         <!--Place Detail Controller-->
         <scene sceneID="igb-lD-zfR">
             <objects>
-                <viewController storyboardIdentifier="PlaceDetailController" id="3CL-8K-n3s" customClass="PlaceDetailController" customModule="Nearby" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PlaceDetailController" id="3CL-8K-n3s" customClass="PlaceDetailController" customModule="MVVMMedium" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mho-PY-o6F">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,6 +190,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="M89-UP-7xC"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="8eJ-3u-1Ag" firstAttribute="top" secondItem="3xn-Ba-Bdc" secondAttribute="bottom" constant="20" id="1U4-8T-glw"/>
@@ -212,7 +210,6 @@
                             <constraint firstItem="8eJ-3u-1Ag" firstAttribute="leading" secondItem="vcq-8R-EIB" secondAttribute="leading" id="lVs-dz-fI8"/>
                             <constraint firstItem="3xn-Ba-Bdc" firstAttribute="leading" secondItem="3Uy-5N-mtn" secondAttribute="trailing" constant="10" id="yYF-KP-cIH"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="M89-UP-7xC"/>
                     </view>
                     <connections>
                         <outlet property="distanceLabel" destination="P80-Ed-bxI" id="H1u-68-Ho1"/>
