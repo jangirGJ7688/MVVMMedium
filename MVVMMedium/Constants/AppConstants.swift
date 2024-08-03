@@ -7,4 +7,4 @@
 
 import Foundation
 
-let googleApiKey = "AIzaSyA-oavokG80m6MAR27ztUWFKVGY7JV_dXU"
+let googleApiKey = "AIzaSyCQ_Fmec_BiI24vSgEKL6Oijlilj2OUvn4"

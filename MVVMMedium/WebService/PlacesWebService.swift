@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import GooglePlaces
 
 struct PlacesWebService {
     func getPlaceList(placeType: PlaceType, completion: @escaping ([PlaceModel]?, _ error: Error?) -> ()) {

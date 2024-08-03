@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B435FDBB2C5BAFC700D81706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FDBA2C5BAFC700D81706 /* AppDelegate.swift */; };
 		B435FDBD2C5BAFC700D81706 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FDBC2C5BAFC700D81706 /* SceneDelegate.swift */; };
-		B435FDBF2C5BAFC700D81706 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FDBE2C5BAFC700D81706 /* ViewController.swift */; };
 		B435FDC42C5BAFC800D81706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B435FDC32C5BAFC800D81706 /* Assets.xcassets */; };
 		B435FDC72C5BAFC800D81706 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B435FDC62C5BAFC800D81706 /* Base */; };
 		B435FDD02C5BBD7A00D81706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B435FDCF2C5BBD7A00D81706 /* Main.storyboard */; };
@@ -30,13 +29,29 @@
 		B435FDFD2C5CA7DC00D81706 /* PlaceTableCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FDFC2C5CA7DC00D81706 /* PlaceTableCellVM.swift */; };
 		B435FE002C5CA8FF00D81706 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FDFF2C5CA8FF00D81706 /* AppData.swift */; };
 		B435FE022C5CA91C00D81706 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FE012C5CA91C00D81706 /* Helper.swift */; };
+		B435FE062C5CB5C200D81706 /* UITableView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FE052C5CB5C200D81706 /* UITableView+Additions.swift */; };
+		B435FE132C5CBA0900D81706 /* PaginationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FE0B2C5CBA0900D81706 /* PaginationCell.swift */; };
+		B435FE142C5CBA0900D81706 /* CollectionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FE0C2C5CBA0900D81706 /* CollectionTableCell.swift */; };
+		B435FE152C5CBA0900D81706 /* ImageAndLabelCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B435FE0D2C5CBA0900D81706 /* ImageAndLabelCollectionCell.xib */; };
+		B435FE162C5CBA0900D81706 /* PaginationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B435FE0E2C5CBA0900D81706 /* PaginationCell.xib */; };
+		B435FE172C5CBA0900D81706 /* ImageAndLabelCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FE0F2C5CBA0900D81706 /* ImageAndLabelCollectionCell.swift */; };
+		B435FE182C5CBA0900D81706 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FE102C5CBA0900D81706 /* PlaceView.swift */; };
+		B435FE192C5CBA0900D81706 /* CollectionTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B435FE112C5CBA0900D81706 /* CollectionTableCell.xib */; };
+		B435FE1A2C5CBA0900D81706 /* PlaceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B435FE122C5CBA0900D81706 /* PlaceView.xib */; };
+		B435FE1D2C5CBA3100D81706 /* PlaceDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FE1C2C5CBA3100D81706 /* PlaceDetailController.swift */; };
+		B435FE222C5CBA5B00D81706 /* PlaceListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FE212C5CBA5B00D81706 /* PlaceListController.swift */; };
+		B435FE252C5CBA6300D81706 /* PlaceTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FE232C5CBA6300D81706 /* PlaceTableCell.swift */; };
+		B435FE262C5CBA6300D81706 /* PlaceTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B435FE242C5CBA6300D81706 /* PlaceTableCell.xib */; };
+		B435FE292C5CBB6000D81706 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B435FE282C5CBB6000D81706 /* SDWebImage */; };
+		B435FE2B2C5CC66900D81706 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435FE2A2C5CC66900D81706 /* AlertManager.swift */; };
+		B435FE2D2C5CF8E100D81706 /* SonyWorld.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B435FE2C2C5CF8E100D81706 /* SonyWorld.gpx */; };
+		B435FE302C5DDE3500D81706 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = B435FE2F2C5DDE3500D81706 /* GooglePlaces */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B435FDB72C5BAFC700D81706 /* MVVMMedium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMMedium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B435FDBA2C5BAFC700D81706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B435FDBC2C5BAFC700D81706 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B435FDBE2C5BAFC700D81706 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B435FDC32C5BAFC800D81706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B435FDC62C5BAFC800D81706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B435FDC82C5BAFC800D81706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +73,21 @@
 		B435FDFC2C5CA7DC00D81706 /* PlaceTableCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableCellVM.swift; sourceTree = "<group>"; };
 		B435FDFF2C5CA8FF00D81706 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		B435FE012C5CA91C00D81706 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		B435FE052C5CB5C200D81706 /* UITableView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Additions.swift"; sourceTree = "<group>"; };
+		B435FE0B2C5CBA0900D81706 /* PaginationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationCell.swift; sourceTree = "<group>"; };
+		B435FE0C2C5CBA0900D81706 /* CollectionTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTableCell.swift; sourceTree = "<group>"; };
+		B435FE0D2C5CBA0900D81706 /* ImageAndLabelCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageAndLabelCollectionCell.xib; sourceTree = "<group>"; };
+		B435FE0E2C5CBA0900D81706 /* PaginationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginationCell.xib; sourceTree = "<group>"; };
+		B435FE0F2C5CBA0900D81706 /* ImageAndLabelCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAndLabelCollectionCell.swift; sourceTree = "<group>"; };
+		B435FE102C5CBA0900D81706 /* PlaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		B435FE112C5CBA0900D81706 /* CollectionTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionTableCell.xib; sourceTree = "<group>"; };
+		B435FE122C5CBA0900D81706 /* PlaceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceView.xib; sourceTree = "<group>"; };
+		B435FE1C2C5CBA3100D81706 /* PlaceDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailController.swift; sourceTree = "<group>"; };
+		B435FE212C5CBA5B00D81706 /* PlaceListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceListController.swift; sourceTree = "<group>"; };
+		B435FE232C5CBA6300D81706 /* PlaceTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableCell.swift; sourceTree = "<group>"; };
+		B435FE242C5CBA6300D81706 /* PlaceTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceTableCell.xib; sourceTree = "<group>"; };
+		B435FE2A2C5CC66900D81706 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		B435FE2C2C5CF8E100D81706 /* SonyWorld.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SonyWorld.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B435FE292C5CBB6000D81706 /* SDWebImage in Frameworks */,
+				B435FE302C5DDE3500D81706 /* GooglePlaces in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,16 +122,16 @@
 		B435FDB92C5BAFC700D81706 /* MVVMMedium */ = {
 			isa = PBXGroup;
 			children = (
+				B435FE042C5CB5A000D81706 /* Extensions */,
+				B435FE032C5CB12800D81706 /* AppDelegate */,
 				B435FDFE2C5CA8E500D81706 /* Extras */,
 				B435FDDF2C5BF33A00D81706 /* Manager */,
 				B435FDD72C5BC11E00D81706 /* WebService */,
 				B435FDD12C5BBFA400D81706 /* Constants */,
 				B435FDCE2C5BB0F600D81706 /* Modules */,
-				B435FDBA2C5BAFC700D81706 /* AppDelegate.swift */,
-				B435FDBC2C5BAFC700D81706 /* SceneDelegate.swift */,
-				B435FDBE2C5BAFC700D81706 /* ViewController.swift */,
 				B435FDCF2C5BBD7A00D81706 /* Main.storyboard */,
 				B435FDC32C5BAFC800D81706 /* Assets.xcassets */,
+				B435FE2C2C5CF8E100D81706 /* SonyWorld.gpx */,
 				B435FDC52C5BAFC800D81706 /* LaunchScreen.storyboard */,
 				B435FDC82C5BAFC800D81706 /* Info.plist */,
 			);
@@ -135,6 +167,8 @@
 		B435FDD52C5BC02500D81706 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B435FE1E2C5CBA3A00D81706 /* PlaceList */,
+				B435FE1B2C5CBA1C00D81706 /* PlaceDetail */,
 				B435FDE22C5BF95B00D81706 /* Home */,
 			);
 			path = View;
@@ -163,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				B435FDE02C5BF34E00D81706 /* LocationManager.swift */,
+				B435FE2A2C5CC66900D81706 /* AlertManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -188,6 +223,14 @@
 		B435FDE42C5BF97600D81706 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				B435FE0C2C5CBA0900D81706 /* CollectionTableCell.swift */,
+				B435FE112C5CBA0900D81706 /* CollectionTableCell.xib */,
+				B435FE0F2C5CBA0900D81706 /* ImageAndLabelCollectionCell.swift */,
+				B435FE0D2C5CBA0900D81706 /* ImageAndLabelCollectionCell.xib */,
+				B435FE0B2C5CBA0900D81706 /* PaginationCell.swift */,
+				B435FE0E2C5CBA0900D81706 /* PaginationCell.xib */,
+				B435FE102C5CBA0900D81706 /* PlaceView.swift */,
+				B435FE122C5CBA0900D81706 /* PlaceView.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -246,6 +289,57 @@
 			path = Extras;
 			sourceTree = "<group>";
 		};
+		B435FE032C5CB12800D81706 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B435FDBA2C5BAFC700D81706 /* AppDelegate.swift */,
+				B435FDBC2C5BAFC700D81706 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B435FE042C5CB5A000D81706 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B435FE052C5CB5C200D81706 /* UITableView+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B435FE1B2C5CBA1C00D81706 /* PlaceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B435FE1C2C5CBA3100D81706 /* PlaceDetailController.swift */,
+			);
+			path = PlaceDetail;
+			sourceTree = "<group>";
+		};
+		B435FE1E2C5CBA3A00D81706 /* PlaceList */ = {
+			isa = PBXGroup;
+			children = (
+				B435FE202C5CBA4F00D81706 /* Cell */,
+				B435FE1F2C5CBA4500D81706 /* Controller */,
+			);
+			path = PlaceList;
+			sourceTree = "<group>";
+		};
+		B435FE1F2C5CBA4500D81706 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B435FE212C5CBA5B00D81706 /* PlaceListController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B435FE202C5CBA4F00D81706 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B435FE232C5CBA6300D81706 /* PlaceTableCell.swift */,
+				B435FE242C5CBA6300D81706 /* PlaceTableCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,6 +356,10 @@
 			dependencies = (
 			);
 			name = MVVMMedium;
+			packageProductDependencies = (
+				B435FE282C5CBB6000D81706 /* SDWebImage */,
+				B435FE2F2C5DDE3500D81706 /* GooglePlaces */,
+			);
 			productName = MVVMMedium;
 			productReference = B435FDB72C5BAFC700D81706 /* MVVMMedium.app */;
 			productType = "com.apple.product-type.application";
@@ -290,6 +388,10 @@
 				Base,
 			);
 			mainGroup = B435FDAE2C5BAFC700D81706;
+			packageReferences = (
+				B435FE272C5CBB6000D81706 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				B435FE2E2C5DDE3500D81706 /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+			);
 			productRefGroup = B435FDB82C5BAFC700D81706 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -304,8 +406,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B435FE262C5CBA6300D81706 /* PlaceTableCell.xib in Resources */,
+				B435FE162C5CBA0900D81706 /* PaginationCell.xib in Resources */,
 				B435FDC42C5BAFC800D81706 /* Assets.xcassets in Resources */,
+				B435FE192C5CBA0900D81706 /* CollectionTableCell.xib in Resources */,
 				B435FDC72C5BAFC800D81706 /* Base in Resources */,
+				B435FE2D2C5CF8E100D81706 /* SonyWorld.gpx in Resources */,
+				B435FE152C5CBA0900D81706 /* ImageAndLabelCollectionCell.xib in Resources */,
+				B435FE1A2C5CBA0900D81706 /* PlaceView.xib in Resources */,
 				B435FDD02C5BBD7A00D81706 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,23 +425,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B435FE142C5CBA0900D81706 /* CollectionTableCell.swift in Sources */,
 				B435FDEF2C5C9D1A00D81706 /* PlaceCellVM.swift in Sources */,
 				B435FDF12C5C9DB400D81706 /* PlacesTableCollectionCellModel.swift in Sources */,
-				B435FDBF2C5BAFC700D81706 /* ViewController.swift in Sources */,
 				B435FDF52C5C9E1800D81706 /* ImageAndLabelCollectionCellVM.swift in Sources */,
+				B435FE222C5CBA5B00D81706 /* PlaceListController.swift in Sources */,
 				B435FDBB2C5BAFC700D81706 /* AppDelegate.swift in Sources */,
 				B435FE002C5CA8FF00D81706 /* AppData.swift in Sources */,
 				B435FDDB2C5BC18100D81706 /* WebServiceManager.swift in Sources */,
 				B435FE022C5CA91C00D81706 /* Helper.swift in Sources */,
 				B435FDF32C5C9DCC00D81706 /* CategoriesTableCollectionCellVM.swift in Sources */,
+				B435FE1D2C5CBA3100D81706 /* PlaceDetailController.swift in Sources */,
+				B435FE062C5CB5C200D81706 /* UITableView+Additions.swift in Sources */,
+				B435FE2B2C5CC66900D81706 /* AlertManager.swift in Sources */,
 				B435FDEB2C5BFF1400D81706 /* HomeViewModel.swift in Sources */,
 				B435FDBD2C5BAFC700D81706 /* SceneDelegate.swift in Sources */,
 				B435FDFD2C5CA7DC00D81706 /* PlaceTableCellVM.swift in Sources */,
 				B435FDF92C5CA47100D81706 /* PlaceDetailVM.swift in Sources */,
 				B435FDE12C5BF34E00D81706 /* LocationManager.swift in Sources */,
+				B435FE132C5CBA0900D81706 /* PaginationCell.swift in Sources */,
+				B435FE182C5CBA0900D81706 /* PlaceView.swift in Sources */,
 				B435FDED2C5C9CF700D81706 /* PaginationCellVM.swift in Sources */,
+				B435FE172C5CBA0900D81706 /* ImageAndLabelCollectionCell.swift in Sources */,
 				B435FDE92C5BFB4000D81706 /* HomeViewController.swift in Sources */,
 				B435FDFB2C5CA4B600D81706 /* PlaceListVM.swift in Sources */,
+				B435FE252C5CBA6300D81706 /* PlaceTableCell.swift in Sources */,
 				B435FDDD2C5BDBC200D81706 /* PlaceModel.swift in Sources */,
 				B435FDD32C5BBFC200D81706 /* AppConstants.swift in Sources */,
 				B435FDD92C5BC13C00D81706 /* PlacesWebService.swift in Sources */,
@@ -551,6 +667,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B435FE272C5CBB6000D81706 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.5;
+			};
+		};
+		B435FE2E2C5DDE3500D81706 /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B435FE282C5CBB6000D81706 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B435FE272C5CBB6000D81706 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		B435FE2F2C5DDE3500D81706 /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B435FE2E2C5DDE3500D81706 /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B435FDAF2C5BAFC700D81706 /* Project object */;
 }
